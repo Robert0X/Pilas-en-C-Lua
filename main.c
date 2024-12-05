@@ -17,7 +17,7 @@ int main()
 
     while (1)
     {
-        printf("\n--- Menú Principal ---\n");
+        printf("\n--- Menu Principal ---\n");
         printf("1. Lista Simplemente Ligada\n");
         printf("2. Lista Doblemente Ligada\n");
         printf("3. Lista Doblemente Ligada Circular\n");
@@ -40,7 +40,7 @@ int main()
             printf("Saliendo del programa...\n");
             return 0;
         default:
-            printf("Opción no válida. Intente de nuevo.\n");
+            printf("Opcion no valida. Intente de nuevo.\n");
         }
     }
     return 0;
@@ -57,8 +57,8 @@ void menuListaSimple(NodoSimple **listaSimple)
         printf("3. Insertar Ordenado\n");
         printf("4. Borrar\n");
         printf("5. Imprimir Lista\n");
-        printf("6. Volver al Menú Principal\n");
-        printf("Seleccione una opción: ");
+        printf("6. Volver al Menu Principal\n");
+        printf("Seleccione una opcion: ");
         scanf("%d", &opcion);
 
         switch (opcion)
@@ -89,7 +89,7 @@ void menuListaSimple(NodoSimple **listaSimple)
         case 6:
             return;
         default:
-            printf("Opción no válida.\n");
+            printf("Opcion no valida.\n");
         }
     }
 }
@@ -105,8 +105,8 @@ void menuListaDoble(NodoDoble **listaDoble)
         printf("3. Insertar Ordenado\n");
         printf("4. Borrar\n");
         printf("5. Imprimir Lista\n");
-        printf("6. Volver al Menú Principal\n");
-        printf("Seleccione una opción: ");
+        printf("6. Volver al Menu Principal\n");
+        printf("Seleccione una opcion: ");
         scanf("%d", &opcion);
 
         switch (opcion)
@@ -137,7 +137,7 @@ void menuListaDoble(NodoDoble **listaDoble)
         case 6:
             return;
         default:
-            printf("Opción no válida.\n");
+            printf("Opcion no valida.\n");
         }
     }
 }
@@ -153,8 +153,8 @@ void menuListaDobleCircular(NodoDobleCircular **listaDobleCircular)
         printf("3. Insertar Ordenado\n");
         printf("4. Borrar\n");
         printf("5. Imprimir Lista\n");
-        printf("6. Volver al Menú Principal\n");
-        printf("Seleccione una opción: ");
+        printf("6. Volver al Menu Principal\n");
+        printf("Seleccione una opcion: ");
         scanf("%d", &opcion);
 
         switch (opcion)
@@ -185,7 +185,7 @@ void menuListaDobleCircular(NodoDobleCircular **listaDobleCircular)
         case 6:
             return;
         default:
-            printf("Opción no válida.\n");
+            printf("Opcion no valida.\n");
         }
     }
 }

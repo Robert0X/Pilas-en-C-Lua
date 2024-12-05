@@ -75,7 +75,7 @@ void borrarDobleCircular(NodoDobleCircular **head, int valor)
 {
     if (*head == NULL)
     {
-        printf("La lista está vacía.\n");
+        printf("La lista esta vacía.\n");
         return;
     }
 
@@ -110,7 +110,7 @@ void imprimirDobleCircular(NodoDobleCircular *head)
 {
     if (head == NULL)
     {
-        printf("La lista está vacía.\n");
+        printf("La lista esta vacía.\n");
         return;
     }
 
